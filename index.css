@@ -1,0 +1,111 @@
+* {
+  text-align: center;
+}
+
+#task1 {
+  margin-top: 20px;
+  margin-left: -120px;
+}
+
+.lineContainer {
+  position: relative;
+}
+.line {
+  border-top: 1px solid blue;
+  border-left: 1px solid blue;
+  width: 55px;
+  height: 8px;
+  float: left;
+}
+.line-right {
+  border-top: 1px solid blue;
+  border-left: 1px solid blue;
+  width: 25px;
+  height: 8px;
+  float: left;
+}
+.lineRightEnd {
+  border-right: 0;
+}
+.numberContainer {
+  position: absolute;
+  top: 10px;
+}
+.number {
+  width: 56px;
+  float: left;
+  text-align: left;
+}
+
+.numberLeftEnd {
+  width: 10px;
+  height: 5px;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+.dot-color {
+  background-color: green;
+}
+.dot-fade {
+  background-color: grey;
+}
+
+.dot2 {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.dot2-fade {
+  background-color: grey;
+}
+
+.dot2-fade:hover {
+  background-color: green;
+}
+
+#flex-container {
+  display: flex;
+  padding: 20px;
+}
+
+#flex-container > div {
+  margin: 5px;
+  width: 45px;
+  height: 90px;
+}
+
+#flex-container-2 {
+  display: flex;
+  padding: 20px;
+}
+
+#flex-container-2 > div {
+  margin: 5px;
+  width: 45px;
+  height: 90px;
+}
+
+.main {
+  margin-left: 160px;
+  margin-top: 130px;
+  position: relative;
+  top: 40%;
+  left: 20%;
+  /* margin: -100px 0 0 -150px; */
+}
+
+.task2 {
+  position: relative;
+  top: 40%;
+  margin-top: 130px;
+}
